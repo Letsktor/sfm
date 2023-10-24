@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/zoo-tifuldeals/src/main.iml" filepath="$PROJECT_DIR$/zoo-tifuldeals/src/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reactor.iml" filepath="$PROJECT_DIR$/reactor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rector.iml" filepath="$PROJECT_DIR$/rector.iml" />
       <module fileurl="file://$PROJECT_DIR$/zoo-tifuldeals/zoo-tifuldeals.iml" filepath="$PROJECT_DIR$/zoo-tifuldeals/zoo-tifuldeals.iml" />
     </modules>
   </component>
