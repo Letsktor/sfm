@@ -1,7 +1,10 @@
 
-import './App.css';
+import './Home.css';
+import image from './WildOne13-1024x819 1.png'
+import backgimg from './ecbfa16aab3a263c4e362bc84f7ae6aa.jpeg'
+import logo from './cf1a7da66799cf8fc110c8d9fe9dae0d.jpeg'
 
-function App() {
+function Home() {
   return (
       <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
         <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} />
@@ -11,7 +14,7 @@ function App() {
         <div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ABOUT</div>
         <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
         <div style={{width: 1440, height: 453, left: 0, top: 75, position: 'absolute', background: 'white'}} />
-        <img style={{width: 1424, height: 573, left: 0, top: 75, position: 'absolute', boxShadow: '8px 8px 8px ', filter: 'blur(8px)'}} src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpegn"  alt={"lol"}/>
+        <img style={{width: 1424, height: 573, left: 0, top: 75, position: 'absolute', boxShadow: '8px 8px 8px ', filter: 'blur(8px)'}} src={backgimg}  alt={"lol"}/>
         <div style={{width: 1059, height: 249, left: 190, top: 220, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 64, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Do you want to hire an exotic animal for your birthday party?</div>
         <div style={{width: 293, height: 58, left: 856.27, top: 527, position: 'absolute', transform: 'rotate(179.73deg)', transformOrigin: '0 0', background: '#9A1D1D', borderRadius: 42}} />
         <div style={{width: 240, height: 41, left: 590, top: 478, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Learn More</div>
@@ -23,23 +26,18 @@ function App() {
         <div style={{width: 272, height: 68, left: 740, top: 1500, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>info@zootifuldeals.com</div>
         <div style={{width: 257, height: 58, left: 492, top: 1498, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>+36205446565</div>
         <div style={{width: 375, height: 56, left: 1045, top: 1499, position: 'absolute', textAlign: 'center', color: '#FFFDFD', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.</div>
-        <img style={{width: 658, height: 370, left: 0, top: 648, position: 'absolute'}} src="https://via.placeholder.com/658x370"  alt={"lol"}/>
+        <img style={{width: 658, height: 370, left: 0, top: 648, position: 'relative'}} src={image}  alt={"lol"}/>
         <div style={{width: 1424, height: 445, left: 0, top: 1018, position: 'absolute', boxShadow: '0px 4px 11px black inset'}}>
-          <div style={{width: 5696, height: 446, left: 0, top: -1, position: 'absolute'}}>
-            <img style={{width: 1424, height: 445, left: 1424, top: 0, position: 'absolute'}} src="https://via.placeholder.com/1424x445"  alt={"alt"}/>
-            <img style={{width: 1424, height: 445, left: 0, top: 1, position: 'absolute'}} src="https://via.placeholder.com/1424x445"  alt={"alt"}/>
-            <img style={{width: 1424, height: 445, left: 2848, top: 1, position: 'absolute'}} src="https://via.placeholder.com/1424x445"  alt={"alt"}/>
-            <img style={{width: 1424, height: 445, left: 4272, top: 1, position: 'absolute'}} src="https://via.placeholder.com/1424x445"  alt={"alt"}/>
-          </div>
+            <img id={"zold"} src={"./unsplash_3MSQtgCvyWg.png"} alt={"kep"}></img>
         </div>
         <div style={{width: 994, height: 308, left: 185, top: 1169, position: 'absolute'}}>
           <div style={{width: 994, height: 308, left: 0, top: 0, position: 'absolute', textAlign: 'center'}}><span style={{ color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Zoo-tiful Deals</span><span style={{color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}> provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, </span><span style={{ color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Zoo-tiful Deals<br/></span><span style={{color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>transforms it into an unforgettable celebration of nature’s beauty.</span></div>
         </div>
         <div style={{width: 872, height: 71, left: 246, top: 1058, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 40, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Why choose Zoo-tiful Deals?</div>
-        <img style={{width: 103, height: 103, left: 0, top: 1463, position: 'absolute'}} src="https://via.placeholder.com/103x103"  alt={"alt"}/>
-        <img style={{width: 76, height: 76, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/76x76"  alt={"alt"}/>
+        <img style={{width: 103, height: 103, left: 0, top: 1463, position: 'absolute'}} src={logo}  alt={"alt"}/>
+        <img style={{width: 76, height: 76, left: 0, top: 0, position: 'absolute'}} src={logo}  alt={"alt"}/>
       </div>
   );
 }
 
-export default App;
+export default Home;
