@@ -6,8 +6,8 @@ import logo from './cf1a7da66799cf8fc110c8d9fe9dae0d.jpeg'
 
 function Home() {
   return (
-      <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
-        <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} />
+      <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}} className={".container"}>
+        <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"} />
         <div style={{width: 211, height: 41, left: 964, top: 17, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>CONTACT US</div>
         <div style={{width: 114, height: 29, left: 229, top: 19, position: 'absolute', textAlign: 'center', color: '#8F0000', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>HOME</div>
         <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div>
