@@ -14,18 +14,27 @@ function Home() {
     const contactClick=()=>{
       navigate('/contact');
     };
+    const faqClick=()=>{
+        navigate('/faq');
+    };
+    const animalClick=()=>{
+        navigate('/animals');
+    };
+    const homelClick=()=>{
+        navigate('/');
+    };
 
     return (
         <div>
             <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}} className={".container"}>
-                <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"} />
-                <div  className={"Cimsorszoveg"}><button onClick={contactClick}>CONTACT US</button></div>
-                <div  className={"Currentpage"}>HOME</div>
-                <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 31, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div><div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}><button onClick={aboutClick}>ABOUT</button></div>
-                <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
-                <div style={{width: 1440, height: 453, left: 0, top: 75, position: 'absolute', background: 'white'}} />
-                <img style={{width: 1424, height: 573, left: 0, top: 75, position: 'absolute', boxShadow: '8px 8px 8px ', filter: 'blur(8px)'}} src={backgimg}  alt={"lol"}/>
-                <div style={{width: 1059, height: 249, left: 190, top: 220, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 64, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Do you want to hire an exotic animal for your birthday party?</div>
+                <div style={{width: '100%', height: '20%', left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"} />
+                <div  className={"Contact"}><button onClick={contactClick}>CONTACT US</button></div>
+               <div className={"Otthon"}><button onClick={homelClick}><div className={"CurrentPage"}>HOME</div></button></div>
+                <div  className={"Animal"}><button onClick={animalClick}>ANIMALS</button></div>
+                <div  className={"About"}><button onClick={aboutClick}>ABOUT</button></div>
+                <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
+                <img style={{width: '100%', height: '150%', left: 0, top: 75, position: 'absolute', boxShadow: '8px 8px 8px ', filter: 'blur(8px)'}} src={backgimg}  alt={"lol"}/>
+                <div style={{width: '100%', height: 249, left: 190, top: 220, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 64, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Do you want to hire an exotic animal for your birthday party?</div>
                 <div style={{width: 293, height: 58, left: 856.27, top: 527, position: 'absolute', transform: 'rotate(179.73deg)', transformOrigin: '0 0', background: '#9A1D1D', borderRadius: 42}} />
                 <div style={{width: 240, height: 41, left: 590, top: 478, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Learn More</div>
                 <div style={{width: 1424, height: 370, left: 0, top: 648, position: 'absolute', background: '#FFF8F8'}}></div>

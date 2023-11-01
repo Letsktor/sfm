@@ -2,7 +2,7 @@
   text-align: center;
 }
 .container{
-  display:grid;
+  display: flex;
 }
 .App-logo {
   height: 40vmin;
