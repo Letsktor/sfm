@@ -16,7 +16,7 @@ public class Application {
         final EntityManager entityManager = entityManagerFactory.createEntityManager();
 
         Customer customer = new Customer();
-        customer.setFirstName("Erik");
+        customer.setFirstName("Denny");
         customer.setLastName("Fredericci");
 
         entityManager.getTransaction().begin();
