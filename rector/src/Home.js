@@ -10,7 +10,7 @@ function Home() {
         <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"} />
         <div style={{width: 211, height: 41, left: 964, top: 17, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>CONTACT US</div>
         <div style={{width: 114, height: 29, left: 229, top: 19, position: 'absolute', textAlign: 'center', color: '#8F0000', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>HOME</div>
-        <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div>
+        <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 31, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div>
         <div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ABOUT</div>
         <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
         <div style={{width: 1440, height: 453, left: 0, top: 75, position: 'absolute', background: 'white'}} />
