@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+}
+.Cimsorszoveg{
+    width: 230px;
+    height: 41px;
+    left: 964px;
+    top: 17px;
+    position: absolute;
+    text-align: center;
+}
+button{
+    border: none;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight:bold;
+    color: white;
+    background-color:transparent;
+}
+.Currentpage{
+    width: 230px;
+    height: 41px;
+    left: 100px;
+    top: 17px;
+    position: absolute;
+    text-align: center;
+    border: none;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight:bold;
+    color: #8F0000;
+    background-color:transparent;
+}

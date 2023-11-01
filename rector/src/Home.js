@@ -1,21 +1,26 @@
 import React from 'react';
+import "./Home.css"
 import { useNavigate } from 'react-router-dom';
 import backgimg from "./ecbfa16aab3a263c4e362bc84f7ae6aa.jpeg"
 import image from "./833ec4a9cd52072458a3e4f7859f2a0e.png"
 import logo from "./cf1a7da66799cf8fc110c8d9fe9dae0d.jpeg"
+import kep from "./unsplash_3MSQtgCvyWg.png"
 function Home() {
     const navigate = useNavigate();
 
     const aboutClick = () => {
         navigate('/about');
     };
+    const contactClick=()=>{
+      navigate('/contact');
+    };
 
     return (
         <div>
             <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}} className={".container"}>
                 <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"} />
-                <div style={{width: 211, height: 41, left: 964, top: 17, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>CONTACT US</div>
-                <div style={{width: 114, height: 29, left: 229, top: 19, position: 'absolute', textAlign: 'center', color: '#8F0000', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>HOME</div>
+                <div  className={"Cimsorszoveg"}><button onClick={contactClick}>CONTACT US</button></div>
+                <div  className={"Currentpage"}>HOME</div>
                 <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 31, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div><div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}><button onClick={aboutClick}>ABOUT</button></div>
                 <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
                 <div style={{width: 1440, height: 453, left: 0, top: 75, position: 'absolute', background: 'white'}} />
@@ -33,7 +38,7 @@ function Home() {
                 <div style={{width: 375, height: 56, left: 1045, top: 1499, position: 'absolute', textAlign: 'center', color: '#FFFDFD', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.</div>
                 <img style={{width: 658, height: 370, left: 0, top: 648, position: 'relative'}} src={image}  alt={"lol"}/>
                 <div style={{width: 1424, height: 445, left: 0, top: 1018, position: 'absolute', boxShadow: '0px 4px 11px black inset'}}>
-                    <img id={"zold"} src={"./unsplash_3MSQtgCvyWg.png"} alt={"kep"}></img>
+                    <img id={"zold"} src={kep} alt={"kep"}></img>
                 </div>
                 <div style={{width: 994, height: 308, left: 185, top: 1169, position: 'absolute'}}>
                     <div style={{width: 994, height: 308, left: 0, top: 0, position: 'absolute', textAlign: 'center'}}><span style={{ color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Zoo-tiful Deals</span><span style={{color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}> provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, </span><span style={{ color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Zoo-tiful Deals<br/></span><span style={{color: 'white', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>transforms it into an unforgettable celebration of nature’s beauty.</span></div>
