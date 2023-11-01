@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React from 'react';
 import otodik from "./unsplash_Hcfwew744z4.png";
 import negyedik from "./unsplash_eF_3z15RmWY.png";
 import harmadik from "./unsplash_U6Mr3wF8JOk.png";
