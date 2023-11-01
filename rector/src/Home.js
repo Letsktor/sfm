@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Home.css"
 import { useNavigate } from 'react-router-dom';
-import backgimg from "./ecbfa16aab3a263c4e362bc84f7ae6aa.jpeg"
-import image from "./833ec4a9cd52072458a3e4f7859f2a0e.png"
-import logo from "./cf1a7da66799cf8fc110c8d9fe9dae0d.jpeg"
-import kep from "./unsplash_3MSQtgCvyWg.png"
+import backgimg from "./ecbfa16aab3a263c4e362bc84f7ae6aa.jpeg";
+import image from "./833ec4a9cd52072458a3e4f7859f2a0e.png";
+import logo from "./cf1a7da66799cf8fc110c8d9fe9dae0d.jpeg";
+import kep from "./unsplash_3MSQtgCvyWg.png";
 function Home() {
     const navigate = useNavigate();
 
