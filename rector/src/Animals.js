@@ -1,25 +1,25 @@
 
 import React from 'react';
-import "./Home.css"
+import "./Css/Home.css"
 import { useNavigate } from 'react-router-dom';
-import logo from "./szovjetmaci_2.png";
-import thimoty from "./thimoty.png";
-import fluffy from "./fluffy.png";
-import narrow from "./narrow.png";
-import fluf from "./fluf.png";
-import marthy from "./marthy.png";
-import betty from "./betty.png";
-import darwin from "./darwin.png";
-import logo2 from "./szovjetmaci.png";
-import birdy from "./birdy.png";
-import earl from "./earl.png";
-import arrow from "./arrow.png";
-import thimotyjr from "./thimotyjr.png";
-import karl from "./karl.png";
-import carrot from "./carrot.png";
-import zoro from "./zoro.png";
-import luffy from "./luffy.png";
-import ouranimals from "./ouranimals.png";
+import logo from "./Pictures/szovjetmaci_2.png";
+import thimoty from "./Pictures/thimoty.png";
+import fluffy from "./Pictures/fluffy.png";
+import narrow from "./Pictures/narrow.png";
+import fluf from "./Pictures/fluf.png";
+import marthy from "./Pictures/marthy.png";
+import betty from "./Pictures/betty.png";
+import darwin from "./Pictures/darwin.png";
+import logo2 from "./Pictures/szovjetmaci.png";
+import birdy from "./Pictures/birdy.png";
+import earl from "./Pictures/earl.png";
+import arrow from "./Pictures/arrow.png";
+import thimotyjr from "./Pictures/thimotyjr.png";
+import karl from "./Pictures/karl.png";
+import carrot from "./Pictures/carrot.png";
+import zoro from "./Pictures/zoro.png";
+import luffy from "./Pictures/luffy.png";
+import ouranimals from "./Pictures/ouranimals.png";
 
 
 

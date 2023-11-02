@@ -1,12 +1,12 @@
 
 import React from 'react';
-import otodik from "./unsplash_Hcfwew744z4.png";
-import negyedik from "./unsplash_eF_3z15RmWY.png";
-import harmadik from "./unsplash_U6Mr3wF8JOk.png";
-import masodik from "./unsplash_6ZZ2-qZ_HGE.png";
-import elso from "./szovjetmaci_2.png";
-import hatodik from "./szovjetmaci.png";
-import aboutus from "./Rectangle_36.png";
+import otodik from "./Pictures/unsplash_Hcfwew744z4.png";
+import negyedik from "./Pictures/unsplash_eF_3z15RmWY.png";
+import harmadik from "./Pictures/unsplash_U6Mr3wF8JOk.png";
+import masodik from "./Pictures/unsplash_6ZZ2-qZ_HGE.png";
+import elso from "./Pictures/szovjetmaci_2.png";
+import hatodik from "./Pictures/szovjetmaci.png";
+import aboutus from "./Pictures/Rectangle_36.png";
 
 
 function About()

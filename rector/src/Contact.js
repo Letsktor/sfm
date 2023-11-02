@@ -1,7 +1,7 @@
 import React from 'react'
-import elso from "./szovjetmaci_2.png";
-import masodik from "./Rectangle_40.png";
-import harmadik from "./szovjetmaci.png";
+import elso from "./Pictures/szovjetmaci_2.png";
+import masodik from "./Pictures/Rectangle_40.png";
+import harmadik from "./Pictures/szovjetmaci.png";
 
 function Contact()
 {
