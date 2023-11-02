@@ -5,6 +5,7 @@ import About from './About';
 import FAQ from './FAQ'
 import Contact from './Contact'
 import Animals from './Animals'
+import './Css/App.css'
 function App() {
   return (
       <Router>

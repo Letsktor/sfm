@@ -34,19 +34,19 @@ function Home() {
                 <div  className={"About"}><button onClick={aboutClick}>ABOUT</button></div>
                 <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
                 <img style={{width: '100%', height: '150%', left: 0, top: 75, position: 'absolute', boxShadow: '8px 8px 8px ', filter: 'blur(8px)'}} src={backgimg}  alt={"lol"}/>
-                <div style={{width: '90%', height: 249, left: 190, top: 220, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 64, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Do you want to hire an exotic animal for your birthday party?</div>
-                <div style={{width: 293, height: 58, left: 856.27, top: 527, position: 'absolute', transform: 'rotate(179.73deg)', transformOrigin: '0 0', background: '#9A1D1D', borderRadius: 42}} />
-                <div style={{width: 240, height: 41, left: 590, top: 478, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Learn More</div>
-                <div style={{width: 1424, height: 370, left: 0, top: 648, position: 'absolute', background: '#FFF8F8'}}></div>
-                <div style={{width: 747.05, height: 236.06, left: 666, top: 718, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Welcome to Zoo-tiful Deals! We provide a unique touch to your events with our diverse range of rentable animals. Ensuring high animal welfare standards, we create unforgettable, educational experiences. Make your event stand out with us.</div>
-                <div style={{width: 1424, height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
-                <div style={{width: 236, height: 66, left: -48, top: 1491, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>logo</div>
-                <div style={{width: 309, height: 72, left: 170, top: 1494, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Zoo-tiful Deals LLC.</div>
-                <div style={{width: 272, height: 68, left: 740, top: 1500, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>info@zootifuldeals.com</div>
-                <div style={{width: 257, height: 58, left: 492, top: 1498, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>+36205446565</div>
-                <div style={{width: 375, height: 56, left: 1045, top: 1499, position: 'absolute', textAlign: 'center', color: '#FFFDFD', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.</div>
-                <img style={{width: 658, height: 370, left: 0, top: 648, position: 'relative'}} src={image}  alt={"lol"}/>
-                <div style={{width: 1424, height: 445, left: 0, top: 1018, position: 'absolute', boxShadow: '0px 4px 11px black inset'}}>
+                <div style={{width: '90%', height: '90%', left: '5%', top: '60%', position: 'absolute', textAlign: 'center', color: 'white', fontSize: 64, fontFamily: 'Righteous', fontWeight: 'bold', wordWrap: 'break-word'}}>Do you want to hire an exotic animal for your birthday party?</div>
+                <div style={{width: '10%', height: '3%', left: '55%', top: '130%', position: 'absolute', transform: 'rotate(179.73deg)', transformOrigin: '0 0', background: '#9A1D1D', borderRadius: 42}} />
+                <div style={{width: '10%', height: 41, left: 590, top: 478, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Learn More</div>
+                <div style={{width: '100%', height: 370, left: 0, top: 648, position: 'absolute', background: '#FFF8F8'}}></div>
+                <div style={{width: '100%', height: 236.06, left: 666, top: 718, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Welcome to Zoo-tiful Deals! We provide a unique touch to your events with our diverse range of rentable animals. Ensuring high animal welfare standards, we create unforgettable, educational experiences. Make your event stand out with us.</div>
+                <div style={{width: '100%', height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
+                <div style={{width: '100%', height: 66, left: -48, top: 1491, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>logo</div>
+                <div style={{width: '100%', height: 72, left: 170, top: 1494, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Zoo-tiful Deals LLC.</div>
+                <div style={{width: '100%', height: 68, left: 740, top: 1500, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>info@zootifuldeals.com</div>
+                <div style={{width: '100%', height: 58, left: 492, top: 1498, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>+36205446565</div>
+                <div style={{width: '100%', height: 56, left: 1045, top: 1499, position: 'absolute', textAlign: 'center', color: '#FFFDFD', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.</div>
+                <img style={{width: '100%', height: 370, left: 0, top: 648, position: 'relative'}} src={image}  alt={"lol"}/>
+                <div style={{width: '100%', height: 445, left: 0, top: 1018, position: 'absolute', boxShadow: '0px 4px 11px black inset'}}>
                     <img id={"zold"} src={kep} alt={"kep"}></img>
                 </div>
                 <div style={{width: 994, height: 308, left: 185, top: 1169, position: 'absolute'}}>

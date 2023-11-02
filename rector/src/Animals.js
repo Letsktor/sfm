@@ -44,13 +44,13 @@ function Animals()
         };
 
     return (
-        <div style={{width: '100%', height: '100%', position: 'relative', background: '#FCFCFC'}}>
-            <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} />
+        <div style={{width: '100%', height: '100%', position: 'relative', background: '#FCFCFC'}} className={".container"}>
+            <div style={{width: '100%', height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"}/>
                 <div  className={"Contact"}><button onClick={contactClick}>CONTACT US</button></div>
-            <div style={{width: 114, height: 29, left: 229, top: 19, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>HOME</div>
+            <div className={"Otthon"}><button onClick={homelClick}>HOME</button></div>
                 <div  className={"Animal"}><button onClick={animalClick}>ANIMALS</button></div>
-            <div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ABOUT</div>
-            <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
+                <div className={'About'}><button onClick={aboutClick}>ABOUT</button></div>
+            <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
             <div style={{width: 1424, height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
             <img style={{width: 103, height: 103, left: 0, top: 1463, position: 'absolute'}} src={logo2} />
             <div style={{width: 303, height: 72, left: 176, top: 1494, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Zoo-tiful Deals LLC.</div>
@@ -79,9 +79,7 @@ function Animals()
             <div style={{width: 94, height: 26, left: 306, top: 665, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>4.2<br/></div>
             <div style={{width: 1424, height: 331, left: 0, top: 74.50, position: 'absolute', border: '1px black solid'}}></div>
             <div style={{width: 1424, height: 331, left: 0, top: 75, position: 'absolute', boxShadow: '0px 355px 4px rgba(0, 0, 0, 0.60) inset', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}></div>
-                <div style={{width: 1424, height: 993, position: 'relative'}}>
-                        <img style={{width: 1424, height: 338, left: 0, top: 75, position: 'absolute'}} src={ouranimals} />
-                </div>
+
                 <div style={{width: 787, height: 155, left: 343, top: 163, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 128, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Our Animals</div>
             <div style={{width: 317, height: 30, left: -25, top: 406, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Halloween party picks:</div>
             <div style={{width: 306, height: 49, left: -25, top: 740, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Birthday party picks:</div>
