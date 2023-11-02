@@ -48,7 +48,7 @@ function Animals()
             <div style={{width: '100%', height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"}/>
                 <div  className={"Contact"}><button onClick={contactClick}>CONTACT US</button></div>
             <div className={"Otthon"}><button onClick={homelClick}>HOME</button></div>
-                <div  className={"Animal"}><button onClick={animalClick}>ANIMALS</button></div>
+                <div  className={"Animal"}><button onClick={animalClick}><div className={"CurrentPage"}>ANIMALS</div></button></div>
                 <div className={'About'}><button onClick={aboutClick}>ABOUT</button></div>
             <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
             <div style={{width: 1424, height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
