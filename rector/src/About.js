@@ -23,8 +23,8 @@ function About() {
                             <div className="navigation">
                                     <button className="button" onClick={() => handleNavigation('/')}>HOME</button>
                                     <button className="button" onClick={() => handleNavigation('/animals')}>ANIMALS</button>
-                                    <button className="button" onClick={() => handleNavigation('/about')}>ABOUT</button>
-                                     <button className="button" onClick={() => handleNavigation('/contact')}>CONTACT US</button>
+                                    <button className="button" onClick={() => handleNavigation('/about')}><div className={"CurrentPage"}>ABOUT</div></button>
+                                    <button className="button" onClick={() => handleNavigation('/contact')}>CONTACT US</button>
                                     <button className="button" onClick={() => handleNavigation('/faq')}>FAQ</button>
                             </div>
                     </div>

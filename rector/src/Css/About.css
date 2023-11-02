@@ -186,3 +186,6 @@ button{
     height: 100%; /* Maintain aspect ratio */
     border: solid 1px black;
 }
+.CurrentPage{
+    color:#8F0000;
+}

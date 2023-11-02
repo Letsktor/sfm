@@ -5,59 +5,99 @@ import elso from "./Pictures/szovjetmaci_2.png";
 import masodik from "./Pictures/Rectangle_40.png";
 import harmadik from "./Pictures/szovjetmaci.png";
 import {useNavigate} from "react-router-dom";
+import hatodik from "./Pictures/szovjetmaci.png";
 
 function Contact()
 {
-
     const navigate = useNavigate();
 
-    const aboutClick = () => {
-        navigate('/about');
-    };
-    const contactClick=()=>{
-        navigate('/contact');
-    };
-    const faqClick=()=>{
-        navigate('/faq');
-    };
-    const animalClick=()=>{
-        navigate('/animals');
-    };
-    const homelClick=()=>{
-        navigate('/');
+    const handleNavigation = (path) => {
+        navigate(path);
     };
 
+    return (
+        <div className="container">
+            <div className="top-bar">
+                <img className="logo" src={hatodik} alt="Logo" />
+                <div className="navigation">
+                    <button className="button" onClick={() => handleNavigation('/')}>HOME</button>
+                    <button className="button" onClick={() => handleNavigation('/animals')}>ANIMALS</button>
+                    <button className="button" onClick={() => handleNavigation('/about')}>ABOUT</button>
+                    <button className="button" onClick={() => handleNavigation('/contact')}><div className={"CurrentPage"}>CONTANT US</div></button>
+                    <button className="button" onClick={() => handleNavigation('/faq')}>FAQ</button>
+                </div>
+            </div>
+            <div className={"fo"}><h1>Contact Us</h1></div>
+            <div className={"foszoveg"}>
+                <div className={"szoveg1"}>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <h2>Customer<br></br>
+                                           Service Team</h2>
+                                            <br></br>
+                                        <h3>Contact Customer Support</h3>
+                                            <br></br>
+                                            <p>Monday-Friday</p>
+                                            <p>8:00AM-4:00PM CET</p>
+                                        <p>Saturday-Sunday</p>
+                                       <p> 10:00AM-2:00PM CET</p>
+                                        <h3>+36205446565</h3>
+                                       <h3>info@zootifuldeals.com</h3>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
 
-    return (<div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
-        <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} />
-        <img style={{width: 76, height: 76, left: 0, top: 0, position: 'absolute'}} src={elso} />
-        <div className={"Otthon"}><button onClick={homelClick}>HOME</button></div>
-        <div  className={"Animal"}><button onClick={animalClick}>ANIMALS</button></div>
-        <div  className={"About"}><button onClick={aboutClick}>ABOUT</button></div>
-        <div  className={"Contact"}><button onClick={contactClick}><div className={"CurrentPage"}>CONTACT US</div></button></div>
-        <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
-        <div style={{width: 1424, height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
-        <img style={{width: 103, height: 103, left: 0, top: 1463, position: 'absolute'}} src={harmadik}/>
-        <div style={{width: 320, height: 72, left: 159, top: 1494, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Zoo-tiful Deals LLC.</div>
-        <div style={{width: 272, height: 68, left: 740, top: 1500, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>info@zootifuldeals.com</div>
-        <div style={{width: 257, height: 58, left: 492, top: 1498, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>+36205446565</div>
-        <div style={{width: 375, height: 56, left: 1045, top: 1499, position: 'absolute', textAlign: 'center', color: '#FFFDFD', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.</div>
-        <img style={{width: 1424, height: 556, left: 0, top: 75, position: 'absolute'}} src={masodik} />
-        <div style={{width: 890, height: 348, left: 267, top: 144, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 128, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Contact us</div>
-        <div style={{width: 249, height: 116, left: 254, top: 713, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 36, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Customer Service Team</div>
-        <div style={{width: 249, height: 116, left: 836, top: 713, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 36, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Farm</div>
-        <div style={{width: 385, height: 100, left: 188, top: 829, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Contact Customer Support</div>
-        <div style={{width: 385, height: 100, left: 772, top: 806, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Visit us at</div>
-        <div style={{width: 302, height: 83, left: 217, top: 887, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>Monday-Friday</div>
-        <div style={{width: 302, height: 83, left: 820, top: 962, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>Monday-Friday</div>
-        <div style={{width: 302, height: 83, left: 217, top: 985, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>Saturday-Sunday</div>
-        <div style={{width: 246, height: 52, left: 258, top: 951, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>8:00AM-4:00PM CET</div>
-        <div style={{width: 246, height: 52, left: 853, top: 1019, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>8:00AM-4:00PM CET</div>
-        <div style={{width: 246, height: 52, left: 258, top: 1042, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>10:00AM-2:00PM CET</div>
-        <div style={{width: 246, height: 59, left: 241, top: 1100, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>+36205446565</div>
-        <div style={{width: 276, height: 70, left: 232, top: 1138, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>info@zootifuldeals.com</div>
-        <div style={{width: 293, height: 110, left: 829, top: 894, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Raleway', fontWeight: '400', wordWrap: 'break-word'}}>4034 Debrecen, Vágóhíd utca 3.,Hajdú-Bihar vármegye, Hungary</div>
-    </div>);
+
+
+                </div>
+                <div className={"szoveg2"}>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <h2>Farm</h2>
+                    <br></br>
+                    <h3>Visit us at</h3>
+                    <p> 4034 Debrecen, Vágóhíd
+                    utca 3., Hajdú-Bihar vármegye, Hungary</p>
+                    <p>Monday-Friday</p>
+                    8:00AM-4:00PM CET
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+
+
+                </div>
+            </div>
+    <div className="bottom-bar">
+        <img className="footer-logo" src={elso} alt="Footer Logo" />
+        <div>
+            <div className="footer-text1">Zoo-tiful Deals LLC.</div>
+            <div className="footer-text2">info@zootifuldeals.com</div>
+            <div className="footer-text3">+36205446565</div>
+            <div className="footer-text4">4034 Debrecen, Vágóhíd utca 3.</div>
+        </div>
+    </div>
+</div>
+);
 }
 
 export default Contact;
