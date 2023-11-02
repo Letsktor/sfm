@@ -1,5 +1,6 @@
 
 import React from 'react';
+import "./Css/About.css"
 import otodik from "./Pictures/unsplash_Hcfwew744z4.png";
 import negyedik from "./Pictures/unsplash_eF_3z15RmWY.png";
 import harmadik from "./Pictures/unsplash_U6Mr3wF8JOk.png";
@@ -7,19 +8,38 @@ import masodik from "./Pictures/unsplash_6ZZ2-qZ_HGE.png";
 import elso from "./Pictures/szovjetmaci_2.png";
 import hatodik from "./Pictures/szovjetmaci.png";
 import aboutus from "./Pictures/Rectangle_36.png";
+import {useNavigate} from "react-router-dom";
 
 
 function About()
 {
+        const navigate = useNavigate();
+
+        const aboutClick = () => {
+                navigate('/about');
+        };
+        const contactClick=()=>{
+                navigate('/contact');
+        };
+        const faqClick=()=>{
+                navigate('/faq');
+        };
+        const animalClick=()=>{
+                navigate('/animals');
+        };
+        const homelClick=()=>{
+                navigate('/');
+        };
+
     return (
         <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
             <div style={{width: 1424, height: 75, left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} />
             <img style={{width: 76, height: 76, left: 0, top: 0, position: 'absolute'}} src={hatodik} />
-            <div style={{width: 211, height: 41, left: 964, top: 17, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>CONTACT US</div>
-            <div style={{width: 114, height: 29, left: 229, top: 19, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>HOME</div>
-            <div style={{width: 143, height: 29, left: 479, top: 20, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ANIMALS</div>
-            <div style={{width: 168, height: 42, left: 720, top: 15, position: 'absolute', textAlign: 'center', color: '#8F0000', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>ABOUT</div>
-            <div style={{width: 114, height: 29, left: 1252, top: 22, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>FAQ</div>
+                <div  className={"Contact"}><button onClick={contactClick}>CONTACT US</button></div>
+                <div className={"Otthon"}><button onClick={homelClick}>HOME</button></div>
+                <div  className={"Animal"}><button onClick={animalClick}>ANIMALS</button></div>
+                <div  className={"About"}><button onClick={aboutClick}><div className={"CurrentPage"}>ABOUT</div></button></div>
+                <div className={"FAQ"}><button onClick={faqClick}>FAQ</button></div>
             <div style={{width: 1424, height: 105, left: 0, top: 1463, position: 'absolute', background: '#E1AD01'}}></div>
             <img style={{width: 103, height: 103, left: 0, top: 1463, position: 'absolute'}} src={elso}/>
             <div style={{width: 318, height: 72, left: 161, top: 1494, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Raleway', fontWeight: '700', wordWrap: 'break-word'}}>Zoo-tiful Deals LLC.</div>

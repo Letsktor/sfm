@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Css/Home.css"
+import "./Css/Animals.css"
 import { useNavigate } from 'react-router-dom';
 import backgimg from "./Pictures/ecbfa16aab3a263c4e362bc84f7ae6aa.jpeg";
 import image from "./Pictures/833ec4a9cd52072458a3e4f7859f2a0e.png";
