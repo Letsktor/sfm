@@ -23,7 +23,7 @@ function FAQ() {
     };
 
     return (
-        <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}} className={".container"}>
+        <div style={{width: '100%', height: '100%', position: 'relative', background: 'red'}} className={".container"}>
             <div style={{width: '10%', height: '100%', left: 0, top: 0, position: 'absolute', background: '#E1AD01'}} className={".container"}/>
             <img style={{width: 76, height: 76, left: 0, top: 0, position: 'absolute'}} src={elso}  alt={"elso"}/>
             <div className={"Contact"}><button onClick={contactClick}>CONTACT US</button></div>
