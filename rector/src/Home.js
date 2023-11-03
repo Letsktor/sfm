@@ -28,26 +28,31 @@ function Home() {
 
             <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}} className={".container"}>
                 <div className={"top-bar"}>
+
                     <img className={"logo"} src={logo}  alt={"alt"}/>
-                    <button onClick={homelClick}><div className={"CurrentPage"}>HOME</div></button>
-                    <button onClick={animalClick}>ANIMALS</button>
-                    <button onClick={aboutClick}>ABOUT</button>
-                    <button onClick={contactClick}>CONTACT US</button>
-                    <button onClick={faqClick}>FAQ</button>
+
+                    <div className={"navigation"}>
+                        <button onClick={homelClick}><div className={"CurrentPage"}>HOME</div></button>
+                        <button onClick={animalClick}>ANIMALS</button>
+                        <button onClick={aboutClick}>ABOUT</button>
+                        <button onClick={contactClick}>CONTACT US</button>
+                        <button onClick={faqClick}>FAQ</button>
+                    </div>
+
                 </div>
-                <div style={{border:"none"}}>
+                <div style={{border:"none"}} className={"container"}>
                     <div className={"image-container"}>
                         <img src={backgimg}  alt={"lol"}/>
-                        <div className={"overlay-text"}>Do you want to hire an exotic animal for your birthday party?</div>
+                        <div className={"overlay-text"} style={{position:"absolute",left:"0%"}}>Do you want to hire an exotic animal for your birthday party?</div>
                         <div style={{width: '20%', height: '10%',  position: 'absolute',top:"70%",left:"40%", transformOrigin: '0 0', background: '#9A1D1D', borderRadius: 42}} ><button onClick={animalClick} style={{width: '100%',top:'10%',  position: 'relative', textAlign: 'center', color: 'white', fontSize: 32, fontFamily: 'Righteous', fontWeight: '400', wordWrap: 'break-word'}}>Learn More</button></div>
                     </div>
                     <div style={{   display:"inline-block",border:"none"}}>
                         <img style={{width: '50%', left:"0%" ,position: 'relative', border:"none"}} src={image}  alt={"lol"}/>
-                        <text style={{width: '50%',left:"45%",top:"45%", position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Welcome to Zoo-tiful Deals! We provide a unique touch to your events with our diverse range of rentable animals. Ensuring high animal welfare standards, we create unforgettable, educational experiences. Make your event stand out with us.</text>
+                        <text style={{width: '50%',left:"50%",top:"45%", position: 'absolute', textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Inter', fontWeight: '400', wordWrap: 'break-word'}}>Welcome to Zoo-tiful Deals! We provide a unique touch to your events with our diverse range of rentable animals. Ensuring high animal welfare standards, we create unforgettable, educational experiences. Make your event stand out with us.</text>
                     </div>
                     <div className={"image-container"} style={{border:"none"}}>
                         <img style={{width:"100%",border:"none"}} id={"zold"} src={kep} alt={"kep"}></img>
-                        <div className={"overlay-text"} ><div className={"shadow"} >Zoo-tiful Deals provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, Zoo-tiful Deals transforms it into an unforgettable celebration of nature’s beauty.</div></div>
+                        <div className={"overlay-text"} style={{position:"absolute",left:"0%"}} ><div className={"shadow"} >Zoo-tiful Deals provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, Zoo-tiful Deals transforms it into an unforgettable celebration of nature’s beauty.</div></div>
                         <div className={"overlay-text"} style={{position:"absolute",top:"0%",left:"20%",textShadow:"1px 1px 1px black"}}>Why choose Zoo-tiful Deals?</div>
                     </div>
 

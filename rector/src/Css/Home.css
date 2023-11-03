@@ -21,8 +21,14 @@ button{
     padding-left: 4%;
     font-family: 'Raleway';
     font-weight:bold;
+    font-size: 30px;
     color: white;
     background-color:transparent;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .bottom-bar {
