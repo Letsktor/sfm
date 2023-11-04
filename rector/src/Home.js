@@ -52,7 +52,7 @@ function Home() {
                     </div>
                     <div className={"image-container"} style={{border:"none"}}>
                         <img style={{width:"100%",border:"none"}} id={"zold"} src={kep} alt={"kep"}></img>
-                        <div className={"overlay-text"} style={{position:"absolute",left:"0%"}} ><div className={"shadow"} >Zoo-tiful Deals provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, Zoo-tiful Deals transforms it into an unforgettable celebration of nature’s beauty.</div></div>
+                        <div className={"overlay-text2"} style={{position:"absolute",left:"0%",padding:0}} ><div className={"shadow"} >Zoo-tiful Deals provides a unique and memorable experience by offering a diverse range of animals for rent. Their commitment to high animal welfare standards ensures the well-being of the animals and adds an educational aspect to the event. Whether it’s a corporate event or a birthday party, Zoo-tiful Deals transforms it into an unforgettable celebration of nature’s beauty.</div></div>
                         <div className={"overlay-text"} style={{position:"absolute",top:"0%",left:"20%",textShadow:"1px 1px 1px black"}}>Why choose Zoo-tiful Deals?</div>
                     </div>
 

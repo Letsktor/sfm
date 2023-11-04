@@ -58,6 +58,14 @@ button{
     font-size: 64px;
     text-align: center;
 }
+.overlay-text2{
+    position: absolute;
+    top: 20%;
+    left:0%;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
 .shadow{
     text-shadow: 1px 1px 2px black;
     font-size: 44px;
