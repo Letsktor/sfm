@@ -111,6 +111,7 @@ button{
     flex: 1; /* Allows the div to grow and occupy the available space */
     margin-right: 20px; /* Adds some space between the text and the image */
     padding: 20px; /* Optional padding */
+    font-size: 40px;
 }
 
 .Welcomemasodik {
@@ -129,6 +130,7 @@ button{
     justify-content: space-between; /* Adds space between the child elements */
     align-items: center; /* Vertically centers the child elements */
     background-color: #D9D9D9;
+    font-size: 40px;
 }
 .ourteamelso{
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
@@ -150,6 +152,7 @@ button{
     display: flex; /* Enables flexbox layout */
     justify-content: space-between; /* Adds space between the child elements */
     align-items: center; /* Vertically centers the child elements */
+    font-size: 40px;
 
 }
 .zootifulelso{
@@ -172,6 +175,7 @@ button{
     justify-content: space-between; /* Adds space between the child elements */
     align-items: center; /* Vertically centers the child elements */
     background-color: #D9D9D9;
+    font-size: 40px;
 }
 .weofferelso{
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
