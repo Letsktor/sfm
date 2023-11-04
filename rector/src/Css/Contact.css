@@ -61,6 +61,8 @@ button{
 }
 .fo{
     background-image: url("../Pictures/Rectangle_40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 60vh;
     text-align: center;
     font-size: 280%;
