@@ -13,16 +13,20 @@ public class Animal {
     private Long id; // Az entitás egyedi azonosítója
 
     private String name; // Az állat nevét tárolja
-    private String species; // Az állat fajtáját tárolja
+    private String  species; // Az állat fajtáját tárolja
+
+
+    private  double rating;
 
     // Konstruktorok
     public Animal() {
         // Üres konstruktor szükséges a JPA specifikáció miatt
     }
 
-    public Animal(String name, String species) {
+    public Animal(String name, String species,double rating) {
         this.name = name;
         this.species = species;
+        this.rating=rating;
     }
 
     // Getters és setters
@@ -41,6 +45,13 @@ public class Animal {
     public void setName(String name) {
         this.name = name;
     }
+    public void setRate(double rating) {
+        this.rating = rating;
+    }
+    public double getRating() {
+        return rating;
+    }
+
 
     public String getSpecies() {
         return species;
