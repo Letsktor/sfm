@@ -9,5 +9,8 @@
         <module name="untitled1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpa" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
