@@ -1,0 +1,52 @@
+
+.Contact{
+    width: 10%;
+    height: 30%;
+    left: 70%;
+    top: 2%;
+    position: absolute;
+    text-align: center;
+}
+.Animal{
+    width: 10%;
+    height: 30%;
+    left: 30%;
+    top: 2%;
+    position: absolute;
+    text-align: center;
+}
+.About{
+    width: 10%;
+    height: 30%;
+    left: 50%;
+    top: 2%;
+    position: absolute;
+    text-align: center;
+}
+.FAQ{
+    width: 10%;
+    height: 30%;
+    left: 90%;
+    top: 2%;
+    position: absolute;
+    text-align: center;
+}
+button{
+    border: none;
+    font-size: 300%;
+    font-family: Raleway;
+    font-weight:bold;
+    color: white;
+    background-color:transparent;
+}
+.Otthon{
+    width: 10%;
+    height: 30%;
+    left: 10%;
+    top: 2%;
+    position: absolute;
+    text-align: center;
+}
+.CurrentPage{
+    color:#8F0000;
+}
