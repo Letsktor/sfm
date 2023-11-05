@@ -29,11 +29,11 @@ function FAQ() {
             <div className={"top-bar"}>
                 <img className={"logo"} src={logo}  alt={"alt"}/>
                 <div className={"navigation"}>
-                    <button onClick={homelClick}><div className={"CurrentPage"}>HOME</div></button>
+                    <button onClick={homelClick}>HOME</button>
                     <button onClick={animalClick}>ANIMALS</button>
                     <button onClick={aboutClick}>ABOUT</button>
                     <button onClick={contactClick}>CONTACT US</button>
-                    <button onClick={faqClick}>FAQ</button>
+                    <button onClick={faqClick}><div className={"CurrentPage"}>FAQ</div></button>
                 </div>
 
             </div>
