@@ -23,6 +23,8 @@ import ouranimals from "../resources/Pictures/ouranimals.png";
 
 
 
+
+
 function Animals()
 {
         const navigate = useNavigate();
