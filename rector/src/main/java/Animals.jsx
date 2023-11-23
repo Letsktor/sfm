@@ -26,6 +26,7 @@ import kep from "../resources/Pictures/unsplash_3MSQtgCvyWg.png";
 
 
 
+
 function Animals()
 {
         const navigate = useNavigate();
@@ -70,20 +71,50 @@ function Animals()
 
                 </div>
                 <div className={"container"}>
-                <table className="table table-bordered">
-                    <thead>
-                    </thead>
+                <table className="table table-bordered" style={{paddingLeft:'10%',border:"none"}}>
                     <tbody>
+                    <tr ><th style={{textAlign:"left",fontSize:18,paddingLeft:0,paddingRight:0,paddingTop:30,paddingBottom:30}}>Halloween Party picks:</th></tr>
+                    <tr>
                     {
-                        animals.map((animal, index)=>(
-                            <div>
-                            <img src={animal.picurl} alt={"gg"}/>
-                            <div style={{textAlign:"center"}}>{animal.name}</div>
-                            <div style={{textAlign:"center"}}>{animal.species}</div>
-                            <div style={{textAlign:"center"}}>{animal.rating}⭐</div>
-                            <div style={{textAlign:"center"}}>{animal.price}$/h</div>
-                        </div>))
+                        animals.filter(animal=>animal.id<6).map((animal, index)=>(
+
+                            <td onClick={()=>navigate('/animal',{state:{id: animal.id}})}><div style={{position:"relative", width: 185, height: 236, background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 10}}>
+                            <img style={{width: '100%', height: '100%',borderRadius: 10,objectFit:"cover"}} src={animal.picurl} alt={"gg"}/>
+                            <div style={{position:"absolute", top:'5%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontWeight: "bold",fontSize:20}}>{animal.name}</div>
+                            <div style={{position:"absolute", top:'80%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.rating}⭐</div>
+                            <div style={{position:"absolute", top:'90%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.price}$/h</div>
+                        </div></td>))
                     }
+                    </tr>
+                    <tr><th style={{textAlign:"left",fontSize:20,paddingLeft:0,paddingRight:0,paddingTop:30,paddingBottom:30}}>Birthday Party picks:</th></tr>
+                    <tr>
+
+                        {
+                            animals.filter(animal=>animal.id>=6 && animal.id<11).map((animal, index)=>(
+
+                                <td onClick={()=>navigate('/animal',{state:{id: animal.id}})}><div style={{position:"relative", width: 185, height: 236, background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 10}}>
+                                    <img style={{width: '100%', height: '100%',borderRadius: 10,objectFit:"cover"}} src={animal.picurl} alt={"gg"}/>
+                                    <div style={{position:"absolute", top:'5%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontWeight: "bold",fontSize:20}}>{animal.name}</div>
+                                    <div style={{position:"absolute", top:'80%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.rating}⭐</div>
+                                    <div style={{position:"absolute", top:'90%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.price}$/h</div>
+                                </div></td>))
+                        }
+                    </tr>
+                    <tr><th style={{textAlign:"left",fontSize:22,paddingLeft:0,paddingRight:0,paddingTop:30,paddingBottom:30}}>Easter Party picks:</th></tr>
+                    <tr>
+
+
+                        {
+                            animals.filter(animal=>animal.id>=11 && animal.id<16).map((animal, index)=>(
+
+                                <td onClick={()=>navigate('/animal',{state:{id: animal.id}})}><div style={{position:"relative", width: 185, height: 236, background: 'linear-gradient(0deg, white 0%, white 100%)', borderRadius: 10}}>
+                                    <img style={{width: '100%', height: '100%',borderRadius: 10,objectFit:"cover"}} src={animal.picurl} alt={"gg"}/>
+                                    <div style={{position:"absolute", top:'5%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontWeight: "bold",fontSize:20}}>{animal.name}</div>
+                                    <div style={{position:"absolute", top:'80%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.rating}⭐</div>
+                                    <div style={{position:"absolute", top:'90%',left:'5%',color:"white",textShadow:"-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",fontSize:18}}>{animal.price}$/h</div>
+                                </div></td>))
+                        }
+                    </tr>
                     </tbody>
                 </table>
 

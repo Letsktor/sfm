@@ -6,7 +6,6 @@ import About from './About';
 import FAQ from './FAQ'
 import Contact from './Contact'
 import Animals from './Animals'
-import Animal from './Animal'
 import '../resources/Css/App.css'
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route path="/faq" element={<FAQ/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/animals" element={<Animals/>}/>
-            <Route path="/animal" element={<Animal/>}/>
         </Routes>
       </Router>
   );
