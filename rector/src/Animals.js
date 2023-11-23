@@ -22,7 +22,6 @@ import luffy from "./Pictures/luffy.png";
 import ouranimals from "./Pictures/ouranimals.png";
 
 
-
 function Animals()
 {
         const navigate = useNavigate();
