@@ -1,2 +1,2 @@
 # sfm1
-Szoftverfejlesztes Mernokoknek Projeket
+Szoftverfejlesztes Mernokoknek Projekt
