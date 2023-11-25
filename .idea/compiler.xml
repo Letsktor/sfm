@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="demo1" target="17" />
       <module name="jpa" target="21" />
-      <module name="untitled1" target="21" />
+      <module name="untitled1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

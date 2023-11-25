@@ -17,6 +17,7 @@ public class Date {
     private Integer id;
     private String name;
     private String date;
+    private String numb;
     private String email;
     private String tel;
     private Integer animal_id;

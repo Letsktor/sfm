@@ -22,4 +22,5 @@ public class Animal {
     private Float price;
     private String description;
     private String picurl;
+
 }

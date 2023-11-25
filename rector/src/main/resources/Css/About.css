@@ -116,14 +116,14 @@ button{
 
 .Welcomemasodik {
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
-    height: 40vh; /* Sets a fixed height */
+    height: 50vh; /* Sets a fixed height */
     overflow: hidden; /* Prevents content from spilling outside the div */
     margin-left: 20px; /* Adds some space between the text and the image */
 }
 
 .Welcomemasodik img {
     width: 100%; /* Makes the image responsive */
-    height: 100%; /* Maintain aspect ratio */
+    height: 120%; /* Maintain aspect ratio */
 }
 .ourteam{
     display: flex; /* Enables flexbox layout */
@@ -134,7 +134,7 @@ button{
 }
 .ourteamelso{
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
-    height: 40vh; /* Sets a fixed height */
+    height: 50vh; /* Sets a fixed height */
     overflow: hidden; /* Prevents content from spilling outside the div */
 
 }
@@ -157,17 +157,17 @@ button{
 }
 .zootifulelso{
     flex: 1; /* Allows the div to grow and occupy the available space */
-    margin-right: 20px; /* Adds some space between the text and the image */
+    margin-right: 70px; /* Adds some space between the text and the image */
     padding: 20px; /* Optional padding */
 }
 .zootifulmasodik{
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
-    height: 40vh; /* Sets a fixed height */
+    height: 60vh; /* Sets a fixed height */
     overflow: hidden; /* Prevents content from spilling outside the div */
     margin-left: 20px; /* Adds some space between the text and the image */
 }
 .zootifulmasodik img{
-    width: 100%; /* Makes the image responsive */
+    width: 120%; /* Makes the image responsive */
     height: 100%; /* Maintain aspect ratio */
 }
 .weoffer{
@@ -179,7 +179,7 @@ button{
 }
 .weofferelso{
     flex: 0 1 28%; /* Flex-grow is 0, flex-shrink is 1, and flex-basis is 28% */
-    height: 40vh; /* Sets a fixed height */
+    height: 50vh; /* Sets a fixed height */
     overflow: hidden; /* Prevents content from spilling outside the div */
 }
 .weoffermasodik{
