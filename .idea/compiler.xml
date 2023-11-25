@@ -14,13 +14,13 @@
     <bytecodeTargetLevel>
       <module name="demo1" target="17" />
       <module name="jpa" target="21" />
-      <module name="untitled1" target="21" />
+      <module name="untitled1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
-      <module name="sfm" options="-parameters" />
+      <module name="demo" options="" />
+      <module name="sfm" options="" />
       <module name="untitled1" options="-parameters" />
     </option>
   </component>
