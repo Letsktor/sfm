@@ -82,7 +82,7 @@ function Animal(){
                                             <div style={{marginBottom:"0.5em",fontWeight:"bold"}}>Pick your Date:</div>
                                             <MyDatePicker selectedDate={selectedDate} setSelectedDate={setSelectedDate} animalID={animal.id}/>
                                             <div style={{display:"flex",flexDirection:"column",paddingTop:20}}>
-                                                <MyForm selectedDate={selectedDate} animalId={animal.id}/>
+                                                <MyForm selectedDate={selectedDate} animalId={animal.id} animalName={animal.name}/>
                                             </div>
 
                                         </div>
