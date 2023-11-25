@@ -23,7 +23,7 @@ function Contact()
                     <button className="button" onClick={() => handleNavigation('/')}>HOME</button>
                     <button className="button" onClick={() => handleNavigation('/animals')}>ANIMALS</button>
                     <button className="button" onClick={() => handleNavigation('/about')}>ABOUT</button>
-                    <button className="button" onClick={() => handleNavigation('/contact')}><div className={"CurrentPage"}>CONTANT US</div></button>
+                    <button className="button" onClick={() => handleNavigation('/contact')}><div className={"CurrentPage"}>CONTACT US</div></button>
                     <button className="button" onClick={() => handleNavigation('/faq')}>FAQ</button>
                 </div>
             </div>
